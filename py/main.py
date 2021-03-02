@@ -5,7 +5,7 @@ def sigmoid(x):
     return 1 / (1 + np.exp(-x))
 
 
-epochs = 20_000
+epochs = 200_000
 
 trInputs = np.array([
     [0, 0, 1, 1],
